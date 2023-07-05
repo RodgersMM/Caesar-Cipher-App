@@ -30,7 +30,14 @@ public class CaesarCipherApp {
         return encStr;
     }
 
-    
+    // Adding Decoding Method decData()
+
+    public static String decData(String inStr int shifitKey)
+    {
+        //Empty string to store decoded string
+        String decStr = "";
+        
+    }
 
 
 }
