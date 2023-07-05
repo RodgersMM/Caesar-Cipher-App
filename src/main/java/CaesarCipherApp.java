@@ -59,7 +59,10 @@ public class CaesarCipherApp {
         //create Scanner class instance
         Scanner scn = new Scanner(System.in);
 
-        //
+        //Obtain input from the user
+        System.out.println("Enter a string to cipher");
+        String inStr = scn.nextLine();
+
 
     }
 
