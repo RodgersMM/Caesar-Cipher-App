@@ -68,6 +68,13 @@ public class CaesarCipherApp {
         //Enter integer value you wish to cipher
         System.out.println("Enter integer value");
 
+        //Save user input cipher
+        int shiftKey = Integer.valueOf(scn.nextLine());
+
+        //Output
+        System.out.println("Encoded ==> "+encData(inStr, shiftKey));
+        
+
 
 
 
