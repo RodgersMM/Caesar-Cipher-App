@@ -1,12 +1,12 @@
 
 import java.util.Scanner;
 
-
+//Declare CaesarCipherApp class
 public class CaesarCipherApp {
     //String to hold alphabets
     public static final String ALPHABET = "abcdefghijklmnopqrstuvwxyz";
 
-    public static String encryptData(String inStr, int shiftKey)
+    public static String encData(String inStr, int shiftKey)
     {
         //Defining Attributes
 
@@ -31,7 +31,6 @@ public class CaesarCipherApp {
     }
 
     // Adding Decoding Method decData()
-
     public static String decData(String inStr, int shiftKey)
     {
         //Empty string to store decoded string
@@ -71,14 +70,12 @@ public class CaesarCipherApp {
         //Save user input cipher
         int shiftKey = Integer.valueOf(scn.nextLine());
 
-        //Output
+        //Output encoded and decoded data
         System.out.println("Encoded ==> "+encData(inStr, shiftKey));
-        
+        System.out.println("Decoded ==> "+decData(encData(inStr, shiftKey), shiftKey));
 
-
-
-
-
+        //Close the Scanner class object
+        scn.close();
     }
 
 }
