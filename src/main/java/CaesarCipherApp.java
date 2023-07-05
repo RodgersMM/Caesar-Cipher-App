@@ -32,11 +32,20 @@ public class CaesarCipherApp {
 
     // Adding Decoding Method decData()
 
-    public static String decData(String inStr int shifitKey)
+    public static String decData(String inStr, int shiftKey)
     {
         //Empty string to store decoded string
         String decStr = "";
-        
+        //Loop through all characters of the inStr
+        for (int i=0; i<inStr.length();i++)
+        {
+            //Obtain position of each alphabet
+            int pos = ALPHABET.indexOf(inStr.charAt(i));
+            //Obtain decoded char of inStr
+            int decPos = (pos - shiftKey)%26;
+            //
+            if(dec)
+        }
     }
 
 
