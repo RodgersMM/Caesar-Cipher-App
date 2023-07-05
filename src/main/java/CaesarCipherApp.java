@@ -65,8 +65,11 @@ public class CaesarCipherApp {
         //Read the user input
         String inStr = scn.nextLine();
 
+        //Enter integer value you wish to cipher
+        System.out.println("Enter integer value");
 
-        //
+
+
 
 
     }
