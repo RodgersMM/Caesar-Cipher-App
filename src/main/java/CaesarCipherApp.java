@@ -60,8 +60,13 @@ public class CaesarCipherApp {
         Scanner scn = new Scanner(System.in);
 
         //Obtain input from the user
-        System.out.println("Enter a string to cipher");
+        System.out.println("Enter a string of alphabet to cipher");
+
+        //Read the user input
         String inStr = scn.nextLine();
+
+
+        //
 
 
     }
