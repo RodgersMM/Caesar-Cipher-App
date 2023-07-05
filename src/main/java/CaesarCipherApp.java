@@ -8,21 +8,29 @@ public class CaesarCipherApp {
 
     public static String encryptData(String inStr, int shiftKey)
     {
+        //Defining Attributes
 
 
         //String to store encrypted data
-        String encString = "";
+        String encStr = "";
 
         //Convert entered string to lowercase
         inStr = inStr.toLowerCase();
 
         //Loop through all alphabets
         for (int i = 0;i<inStr.length();i++)
-        {
+        {   //Obtain each character position
+            int pos = ALPHABET.indexOf(inStr.charAt(i));
+            //Obtain encoded char of each input
             int encPos = (shiftKey + pos) % 26;
             char encChar = ALPHABET.charAt(encPos);
-            encString += encChar;
+            //ADD encoded character to encoded string
+            encStr += encChar;
         }
-        return encString;
+        return encStr;
     }
+
+    
+
+
 }
