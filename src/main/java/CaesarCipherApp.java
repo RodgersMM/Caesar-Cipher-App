@@ -1,5 +1,5 @@
 
-
+import java.util.Scanner;
 
 
 public class CaesarCipherApp {
@@ -56,7 +56,11 @@ public class CaesarCipherApp {
     }
 
     public static void main(String[] args) {
-        
+        //create Scanner class instance
+        Scanner scn = new Scanner(System.in);
+
+        //
+
     }
 
 }
