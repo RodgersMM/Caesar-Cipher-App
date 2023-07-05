@@ -16,12 +16,13 @@ public class CaesarCipherApp {
         //Convert entered string to lowercase
         inStr = inStr.toLowerCase();
 
+        //Loop through all alphabets
         for (int i = 0;i<inStr.length();i++)
         {
-
-
+            int encPos = (shiftKey + pos) % 26;
+            char encChar = ALPHABET.charAt(encPos);
+            encString += encChar;
         }
-
-
+        return encString;
     }
 }
