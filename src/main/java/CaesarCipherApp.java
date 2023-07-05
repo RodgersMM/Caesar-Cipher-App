@@ -43,9 +43,16 @@ public class CaesarCipherApp {
             int pos = ALPHABET.indexOf(inStr.charAt(i));
             //Obtain decoded char of inStr
             int decPos = (pos - shiftKey)%26;
-            //
-            if(dec)
+            //if decoded position is negative
+            if(decPos < 0){
+                decPos = ALPHABET.length() + decPos;
+            }
+             char decChar =ALPHABET.charAt(decPos);
+            //Add decoded char to decoded string
+            decStr += decChar;
         }
+        //return decoding string
+            return decStr;
     }
 
 
