@@ -55,5 +55,8 @@ public class CaesarCipherApp {
             return decStr;
     }
 
+    public static void main(String[] args) {
+        
+    }
 
 }
