@@ -4,7 +4,7 @@ import java.util.Scanner;
 //Declare CaesarCipherApp class
 public class CaesarCipherApp {
     //String to hold alphabets
-    public static final String ALPHABET = "abcdefghijklmnopqrstuvwxyz";
+    public static final String ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     public static String encData(String inStr, int shiftKey)
     {
@@ -14,8 +14,8 @@ public class CaesarCipherApp {
         //String to store encrypted data
         String encStr = "";
 
-        //Convert entered string to lowercase
-        inStr = inStr.toLowerCase();
+        //Convert entered string to uppercase
+        inStr = inStr.toUpperCase();
 
         //Loop through all alphabets
         for (int i = 0;i<inStr.length();i++)
