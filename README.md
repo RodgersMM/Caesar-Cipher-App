@@ -13,9 +13,17 @@ Technical Information
 1. Technologies used
 The CCA application is written using Java programming language only.
 
-2. Sample command line  output
-![Screenshot of CCA cmd output](./images/caesarcipher.png)
+2. How To Play
+Navigate to intellij terminal. 
+The APP will initiate and display "Enter a string of alphabet to cipher"
+Type alphabet string you want shifted then click Enter
+The APP will display "Enter integer value"
+Type an integer and then click Enter
+The app will output both encoded and decoded alphabet string
+ 
+ Sample Terminal Output
 
+![Screenshot of CCA cmd output](./images/caesarcipher.png)
 
 
 
