@@ -14,7 +14,7 @@ Technical Information
 The CCA application is written using Java programming language only.
 
 2. Sample command line  output
-
+![Screenshot of CCA cmd output](./images/caesarcipher.png)
 
 
 
