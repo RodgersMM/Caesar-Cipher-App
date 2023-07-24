@@ -24,6 +24,7 @@ The app will output both encoded and decoded alphabet string
  Sample Terminal Output
 
 ![Screenshot of CCA cmd output](./images/caesarcipher.png)
+Above is a sample screenshot of a string I entered and its corresponding encoded and decoded alphabet string. 
 
 
 
